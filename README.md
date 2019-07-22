@@ -4,7 +4,7 @@ Developed By [Pradeep Gudipati](https://github.com/pradeepgudipati)
  ``` 22/07/2019 ```
 
 ### Description
-This program is a simple Whatsapp Bomber written using Selenium and python. It downloads random images from google and sends them along with text to the intended recepient 
+This program is a simple Whatsapp Bomber written using Selenium and python. It downloads random images from google and sends them along with text to the intended recipient 
 
 
 ### Requirements
@@ -22,7 +22,7 @@ This program is a simple Whatsapp Bomber written using Selenium and python. It d
 
 ### How to use in Windows
 1. Download and install Python from https://python.org
-2. Download my script WBomb_Chrome from here 
+2. Download the script WA_Image_Text_Bomber from here 
 3. Install the required packages 
     * Install the Windows application [Autoit](https://www.autoitscript.com/site/autoit/downloads/) 
     * Download the [PyAutoit package](https://pypi.org/project/PyAutoIt/) and run below command (Do not try pip install as it fails) and run the below inside the unzipped folder

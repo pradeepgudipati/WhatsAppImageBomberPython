@@ -75,9 +75,6 @@ def downloadImages(count,keyword):
     global keywordsList
     try:
         response = google_images_download.googleimagesdownload()  #class instantiation
-       
-        # Use below line for Random Word generated search results
-        # keywordsList = randomWordsGen.get_random_word()
         keywordsList = keyword
         print("Searching images using keyword -- "+keywordsList)
         arguments = {"keywords":keywordsList,"limit":count,"print_urls":False,"print_size":True,"size":'medium'}   #creating list of arguments
@@ -103,6 +100,9 @@ def main():
     name = input('Enter the name of user or group: ')
     msg = input('Enter your message: ')
     count = int(input('Enter the count: '))
+    # If you want a random word to be used
+    # keywordsList = randomWordsGen.get_random_word()
+    # If you want user entered keyword 
     keyword = input('Enter the Keyword for google search: ')
     # Download the images 
     absolute_image_paths = downloadImages(count, keyword)
