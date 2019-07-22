@@ -1,4 +1,4 @@
-# WhatsApp Bomber
+# WhatsApp Image Bomber
 Developed By [Pradeep Gudipati](https://github.com/pradeepgudipati)
  ``` Version 1.0 ```
  ``` 22/07/2019 ```
@@ -64,3 +64,11 @@ This program is a simple Whatsapp Bomber written using Selenium and python. It d
 
 ### License
 This program has been licensed under the GNU GPL v3 License.
+
+### Legal Notice
+Usage of "WhatsApp Image Bomber" is only for educational and entertainment purpose. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
+
+### References 
+1. [Random Word Generator](https://github.com/vaibhavsingh97/random-word)
+2. [PyAutoit](https://github.com/jacexh/pyautoit)
+3. [Google Image downloader by Hardik Vasa](https://github.com/hardikvasa/google-images-download)
