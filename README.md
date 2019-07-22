@@ -36,7 +36,7 @@ Developed By [Pradeep Gudipati](https://github.com/pradeepgudipati)
 
 4. Run the program now ! 
     ```python
-        py WBomb_Chrome.py
+        py WA_Image_Text_Bomber.py
     ```
 5. Login to WhatsApp using the QR Code
 6. Enter the required values 
