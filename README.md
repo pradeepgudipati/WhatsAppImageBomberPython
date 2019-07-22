@@ -38,8 +38,16 @@ Developed By [Pradeep Gudipati](https://github.com/pradeepgudipati)
     ```python
         py WBomb_Chrome.py
     ```
-5.Login to WhatsApp using the QR Code
-6. Done!
+5. Login to WhatsApp using the QR Code
+6. Enter the required values 
+    ```
+        Enter the name of user or group: <Name of the contact>
+        Enter your message: <Message>
+        Enter the count: <Number of messages to send>
+        Enter the Keyword for google search: <Some random keyword>
+    ```
+7. When prompted enter Y *(Case sensitive)*
+8. Done!
 
 
 ### Contacts

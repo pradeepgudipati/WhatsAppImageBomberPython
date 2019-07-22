@@ -57,16 +57,18 @@ def send_attachment(image_path):
 
 def clearFolder():
     folder = os.getcwd() + '/downloads'
-
-    for the_file in os.listdir(folder):
-        file_path = os.path.join(folder, the_file)
-        try:
-            if os.path.isfile(file_path):
-                os.unlink(file_path)
-            elif os.path.isdir(file_path): shutil.rmtree(file_path)
-            print("Cleaned the folder")
-        except Exception as e:
-            print(e)
+    print("Checking if Folder exists ")
+    print(os.path.isdir(folder))
+    if os.path.isdir(folder) == True:
+        for the_file in os.listdir(folder):
+            file_path = os.path.join(folder, the_file)
+            try:
+                if os.path.isfile(file_path):
+                    os.unlink(file_path)
+                elif os.path.isdir(file_path): shutil.rmtree(file_path)
+                print("Cleaned the folder")
+            except Exception as e:
+                print(e)
 
 
 def downloadImages(count,keyword):
@@ -102,7 +104,6 @@ def main():
     msg = input('Enter your message: ')
     count = int(input('Enter the count: '))
     keyword = input('Enter the Keyword for google search: ')
-    size = input("large, medium, icon, >400*300, >640*480, >800*600, >1024*768, >2MP, >4MP, >6MP, >8MP, >10MP, >12MP, >15MP, >20MP, >40MP, >70MP")
     # Download the images 
     absolute_image_paths = downloadImages(count, keyword)
 
