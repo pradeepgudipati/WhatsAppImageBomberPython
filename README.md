@@ -50,13 +50,14 @@ This program is a simple Whatsapp Bomber written using Selenium and python. It d
         Enter the count: <Number of messages to send>
         Enter the Keyword for google search: <Some random keyword>
     ```
-7. When prompted enter Y *(Case sensitive)*
+7. When prompted enter Y 	__**(Case sensitive)**__
 8. Done!
 
 ### Optional 
 1. To run above program with Firefox, Download the Gecko driver and modify the code accordingly 
 2. You can add additional parameters to google image downloader refer docs [here ](https://google-images-download.readthedocs.io/en/latest/arguments.html)
-
+3. Safe search is not on, so careful with the keywords 
+4. For addtional configurations see comments in the code 
 
 ### Contacts
 * Email : pradeepgudipati@gmail.com
